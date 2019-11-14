@@ -1,0 +1,31 @@
+export const ACTIONS = 'ACTIONS';
+
+// Wells Actions
+export const FETCH_WELLS_REQUEST = 'FETCH_WELLS_REQUEST';
+export const FETCH_WELLS_SUCCESS = 'FETCH_WELLS_SUCCESS';
+export const FETCH_WELLS_FAIL = 'FETCH_WELLS_FAIL';
+
+// Logs Actions
+export const FETCH_LOGS_REQUEST = 'FETCH_LOGS_REQUEST';
+export const FETCH_LOGS_SUCCESS = 'FETCH_LOGS_SUCCESS';
+export const FETCH_LOGS_FAIL = 'FETCH_LOGS_FAIL';
+
+// Forms Actions
+export const FETCH_FORMS_REQUEST = 'FETCH_FORMS_REQUEST';
+export const FETCH_FORMS_SUCCESS = 'FETCH_FORMS_SUCCESS';
+export const FETCH_FORMS_FAIL = 'FETCH_FORMS_FAIL';
+
+// Plots Actions
+export const FETCH_PLOTS_REQUEST = 'FETCH_PLOTS_REQUEST';
+export const FETCH_PLOTS_SUCCESS = 'FETCH_PLOTS_SUCCESS';
+export const FETCH_PLOTS_FAIL = 'FETCH_PLOTS_FAIL';
+export const PLOTS_WELLS_PARAM = 'PLOTS_WELLS_PARAM';
+
+// Selected Items
+export const SELECTED_WELLS = 'SELECTED_WELLS';
+export const SELECTED_LOGS = 'SELECTED_LOGS';
+export const SELECTED_FORMS = 'SELECTED_FORMS';
+
+// Bar Mode, Orientation
+export const SELECTED_BARMODE = 'SELECTED_BARMODE';
+export const SELECTED_ORIENTATION = 'SELECTED_ORIENTATION';
